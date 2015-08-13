@@ -6,3 +6,20 @@
 # In your final submission: 
 #  - Do not print anything extraneous!
 #  - Do not put anything but pass in main()
+
+# body
+def cumulative_sum(l):
+	"""This function takes a list of integers and returns the cumulative sum at each index.
+	It returns a list."""
+	for i in range(1, len(l)):
+		l[i] = l[i] + l[i-1]
+	return l
+
+
+
+# call main function
+def main():
+	pass
+
+if __name__ == '__main__':
+	main()
